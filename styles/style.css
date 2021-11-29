@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+:root {
+  --color-background-header: #F2E205;
+  --color-background: rgb(243, 243, 243);
+  --color-text: #01402E;
+  --color-button: #0597F2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+hmtl, body {
+  height: 100vh;
+  background-color: var(--color-background);
+}
+
+html, body, p {
+  font-family: 'Vollkorn', serif;
+}
+
+header {
+  background-color: var(--color-background-header);
+  position: fixed;
+  width: 100%;
+}
+
+header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 90%;
+  height: 40px;
+  margin: auto;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: var(--color-text);
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  padding: 24px;
+}
+
+#wallpaper-home {
+  height: 350px;
+  background-image: url(../images/wallpaper-home.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+p {
+  font-size: 1.6rem;
+  text-align: justify;
+}
+
+/* main */
+.card-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 8px;
+}
+
+.col {
+  flex-shrink: 2;
+}
+
+.cards {
+  width: 450px;
+  height: 250px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+  margin: 5px;
+}
+
+.wallpaper-card {
+  height: 45%;
+}
+
+#acaraje {
+  background-image: url(../images/acaraje.jpg);
+  background-repeat: no-repeat;
+  background-size: 500px 250px;
+}
+
+#baiao-de-dois {
+  background-image: url(../images/baiao-de-dois\(1\).jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#moqueca {
+  background-image: url(../images/moqueca_de_camarao.jpg);
+  background-repeat: no-repeat;
+  background-size: 500px 250px;
+}
+
+#tapioca {
+  background-image: url(../images/tapioca.jpg);
+  background-repeat: no-repeat;
+  background-size: 500px 250px;
+  background-position: center;
+}
+
+#vatapa {
+  background-image: url(../images/Vatapa.jpg);
+  background-repeat: no-repeat;
+  background-size: 500px 200px;
+  background-position: center;
+}
+
+#cuzcuz  {
+  background-image: url(../images/cuzcuz.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
