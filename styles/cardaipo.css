@@ -1,0 +1,100 @@
+.card-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+}
+
+#first-row {
+  margin-top: 60px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 8px;
+}
+
+.col {
+  flex-shrink: 2;
+}
+
+.cards {
+  width: 450px;
+  height: 250px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin: 5px;
+}
+
+.cards:hover {
+  transform: translateY(0px);
+  animation: float 3s;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.wallpaper-card {
+  height: 45%;
+}
+
+.text-card {
+  margin: 5px;
+}
+
+.text-card h2 {
+  font-size: 1.8rem;
+}
+
+#acaraje {
+  background-image: url(../images/acaraje.jpg);
+  background-repeat: no-repeat;
+  background-size: 500px 250px;
+}
+
+#baiao-de-dois {
+  background-image: url(../images/baiao-de-dois\(1\).jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#moqueca {
+  background-image: url(../images/moqueca_de_camarao.jpg);
+  background-repeat: no-repeat;
+  background-size: 500px 250px;
+}
+
+#tapioca {
+  background-image: url(../images/tapioca.jpg);
+  background-repeat: no-repeat;
+  background-size: 500px 250px;
+  background-position: center;
+}
+
+#vatapa {
+  background-image: url(../images/Vatapa.jpg);
+  background-repeat: no-repeat;
+  background-size: 500px 200px;
+  background-position: center;
+}
+
+#cuzcuz  {
+  background-image: url(../images/cuzcuz.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
