@@ -5,7 +5,7 @@
   --color-background: rgb(243, 243, 243);
   --color-background-info: rgb(233, 232, 232);
   --color-background-footer: rgb(209, 209, 209);
-  --color-text: #01402E;
+  --color-text: black;
   --color-button: #0597F2;
 }
 
@@ -81,6 +81,20 @@ header nav ul li a:hover {
 p {
   font-size: 1.6rem;
   text-align: justify;
+}
+
+.login-button {
+  color: var(--color-text);
+  font-size: 1.6rem;
+  padding: 5px;
+
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+.login-button:hover {
+  color: white;
 }
 
 /* footer */

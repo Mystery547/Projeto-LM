@@ -1,3 +1,8 @@
+header nav ul li a {
+  position: relative;
+  top: 5px;
+  right: 20px;
+}
 .card-box {
   display: flex;
   flex-direction: column;
@@ -51,6 +56,25 @@
 
 .wallpaper-card {
   height: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wallpaper-card button,
+.wallpaper-card button:focus {
+  font-size: 1.3rem;
+  background-color: var(--color-background-header);
+  color: black;
+
+  width: 25%;
+  height: 35%;
+  border-color: white;
+}
+
+.wallpaper-card button:hover{
+  background-color: #ddce02;
+  border-color: black;
 }
 
 .text-card {

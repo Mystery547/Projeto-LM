@@ -5,12 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Oxente Nordeste</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
   <link rel="stylesheet" href="../styles/style.css">
   <link rel="stylesheet" href="../styles/cardaipo.css">
 </head>
 <body>
-  <div class="container">
+  <div class="container-body">
     <header>
       <div class="header">
           <nav>
@@ -22,10 +23,11 @@
                 <a href="../pages/cardapio.html">Cardápio</a>
               </li>
               <li>
-                <a href="#">Blog</a>
+                <a href="../pages/blog.html">Blog</a>
               </li>
             </ul>
           </nav>
+          <a class="login-button" href="/pages/login.html">LOGIN</a>
         </div>
       </div>
     </header>
@@ -34,16 +36,24 @@
        <div id="first-row" class="row">
          <div class="col">
            <div class="cards">
-             <div class="wallpaper-card" id="acaraje"></div>
+             <div class="wallpaper-card" id="acaraje">
+              <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Fazer Pedido
+              </button>
+             </div>
              <div class="text-card">
-               <h2>Acarajé</h2>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque vero qui hic aspernatur itaque eligendi dicta adipisci quaerat non, exercitationem, ipsam eveniet consequuntur. Dignissimos, optio ipsa. Ab suscipit temporibus numquam.</p>
+                <h2>Acarajé</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque vero qui hic aspernatur itaque eligendi dicta adipisci quaerat non, exercitationem, ipsam eveniet consequuntur. Dignissimos, optio ipsa. Ab suscipit temporibus numquam.</p>
              </div>
            </div>           
          </div>
          <div class="col">
            <div class="cards">
-             <div class="wallpaper-card" id="baiao-de-dois"></div>
+             <div class="wallpaper-card" id="baiao-de-dois">
+              <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Fazer Pedido
+              </button>
+             </div>
              <div class="text-card">
                <h2>Baião de dois</h2>
               <p>Quo eveniet repudiandae incidunt nihil adipisci sit fuga dolore voluptate ab sint reprehenderit, eaque consequatur error expedita ducimus? Illo aliquid molestiae aut dolorum, saepe quis. Nihil odit tempore assumenda voluptate.</p>
@@ -51,10 +61,15 @@
            </div>           
          </div>
        </div>
+
        <div class="row">
          <div class="col">
            <div class="cards">
-             <div class="wallpaper-card" id="moqueca"></div>
+             <div class="wallpaper-card" id="moqueca">
+              <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Fazer Pedido
+              </button>
+             </div>
              <div class="text-card">
               <h2>Moqueca de camarão</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis omnis beatae nesciunt eos fuga placeat, impedit sunt quae repellendus inventore neque laborum animi ut vel eaque nemo voluptas ratione.</p>
@@ -63,7 +78,11 @@
          </div>
          <div class="col">
            <div class="cards">
-             <div class="wallpaper-card" id="tapioca"></div>
+             <div class="wallpaper-card" id="tapioca">
+              <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Fazer Pedido
+              </button>
+             </div>
              <div class="text-card">
               <h2>Tapioca</h2>
               <p>Animi doloremque adipisci impedit aperiam facilis quos quidem voluptatem at velit commodi quaerat placeat, iusto officia sed dolores? Placeat tenetur quod recusandae eligendi nisi ipsum minima excepturi ab assumenda aliquam?</p>
@@ -74,24 +93,52 @@
        <div class="row">
          <div class="col">
            <div class="cards">
-             <div class="wallpaper-card" id="vatapa"></div>
+             <div class="wallpaper-card" id="vatapa">
+              <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Fazer Pedido
+              </button>
+             </div>
              <div class="text-card">
               <h2>Vatapá</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti animi sed voluptates voluptatibus suscipit reprehenderit veniam illo architecto, aliquam eligendi omnis placeat maxime repellendus molestias ipsa quasi libero modi quo!</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti animi sed voluptates voluptatibus suscipit reprehenderit veniam illo architecto.</p>
              </div>
              
            </div>           
          </div>
          <div class="col">
            <div class="cards">
-             <div class="wallpaper-card" id="cuzcuz"></div>
+             <div class="wallpaper-card" id="cuzcuz">
+              <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Fazer Pedido
+              </button>
+             </div>
              <div class="text-card">
               <h2>Cuzcuz</h2>
-              <p>Quia consequuntur, maiores atque laborum minus odit repellendus repudiandae expedita fuga optio deserunt molestias necessitatibus distinctio est dolorem? Tenetur ratione beatae in eum exercitationem placeat doloremque ex consequatur culpa eligendi.</p>
+              <p>Quia consequuntur, maiores atque laborum minus odit repellendus repudiandae expedita fuga optio deserunt molestias necessitatibus distinctio est dolorem?.</p>
              </div>
            </div>           
          </div>
        </div>
+      </div>
+
+      <!--  MODAL -->
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>É necessário fazer login</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              <button type="button" class="btn btn-primary">Login</button>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
@@ -114,5 +161,7 @@
     <div id="icons-credits">Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
   </footer>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 </html>

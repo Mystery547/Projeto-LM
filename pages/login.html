@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oxente Nordeste</title>
+
+  <link rel="stylesheet" href="../../styles/style.css">
+  <link rel="stylesheet" href="../../styles/login.css">
+</head>
+<body>
+  <div class="container-body">
+    <div id="form-container">
+      <h2>Cadastro</h2>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="fname">Primeiro Nome</label>
+          <input type="text" id="fname" required/>
+        </div>
+
+        <div class="form-group">
+          <label for="lname">Sobrenome</label>
+          <input type="text" id="lname"required/>
+        </div>
+
+        <div class="form-group">
+          <label for="cpf">CPF</label>
+          <input type="text" name="cpf" id="cpf" required/>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required/>
+        </div>
+
+        <div class="form-group">
+          <label for="address">Endereço</label>
+          <select name="distro" id="distro">
+            <option value="valentina">Valentina</option>
+            <option value="mangabeira">Mangabeira</option>
+            <option value="geisel">Geisel</option>
+          </select>
+          <input type="text" id="street" name="street" placeholder="Rua Texeira Florentino Barbosa, 13" required/>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Telefone</label>
+          <input type="text" name="phone" id="phone">
+        </div>
+
+        <div class="form-group">
+          <label for="password">Senha de usuário</label>
+          <input type="password" name="password" id="password" required/>
+        </div>
+
+        <div class="form-group">
+          <input type="checkbox" name="conditions" value="ok" id="conditions">
+          <label for="conditions">Eu li e concordo com os <a href="#">Termos de Uso</a></label>
+        </div>
+        <input type="submit" value="Cadastrar" id="register-button">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
